@@ -1,6 +1,25 @@
 body{
-	background-color: #996666;
+	background-color: #F8EAE7;
+	font-family: "palatino linotype", serif;
+	color: #813528;
+	text-align: center;
 }
-h1, p{
-	color: #993333;
+
+h1{
+	img-display: inline-text;
+}
+
+h2{
+	color: #B34A37;
+	font-style: italic;
+
+}
+
+a{
+	color: #B34A37;
+	text-decoration: none;
+}
+
+ul{
+	text-align: left;
 }
