@@ -9,7 +9,7 @@ h1{
 	img-display: inline-text;
 }
 
-h2{
+#slogan{
 	color: #B34A37;
 	font-style: italic;
 
@@ -22,4 +22,9 @@ a{
 
 ul{
 	text-align: left;
+}
+
+footer{
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
