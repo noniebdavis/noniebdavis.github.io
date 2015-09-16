@@ -1,18 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Englebert);
+@import url(https://fonts.googleapis.com/css?family=Fresca);
+
+
 body{
 	background-color: #F8EAE7;
-	font-family: "palatino linotype", serif;
 	color: #813528;
-	text-align: center;
+	font-family: 'Fresca', sans-serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	margin: 1em 4em 4em 4em;
+	text-align: left;
 }
 
 h1{
-	img-display: inline-text;
+	font-size: 2.5em;
+	font-family: 'Englebert', sans-serif;
+	font-style: bold;
 }
 
 #slogan{
-	color: #B34A37;
+	font-size: 1em;
 	font-style: italic;
+}
 
+#nav_links{
+	color: #B34A37;
+	font-family: 'Englebert', sans-serif;
+	font-size: 1.5em;
+	padding-bottom: 1em;
 }
 
 a{
@@ -20,11 +35,15 @@ a{
 	text-decoration: none;
 }
 
+img {
+    vertical-align: text-top;
+}
+
 ul{
 	text-align: left;
 }
 
 footer{
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
