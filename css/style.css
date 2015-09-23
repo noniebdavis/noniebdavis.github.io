@@ -1,42 +1,50 @@
-@import url(https://fonts.googleapis.com/css?family=Englebert);
-@import url(https://fonts.googleapis.com/css?family=Fresca);
+@import url(https://fonts.googleapis.com/css?family=Armata);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
 
+* { margin:0; padding:0; box-sizing:border-box; }
 
 body{
-	background-color: #F8EAE7;
-	color: #813528;
-	font-family: 'Fresca', sans-serif;
+	color: #000000;
+	background-image:url('file://C:\Users/Noel/Documents/noniebdavis.github.io/image/background.jpg');
+	background-attachment: fixed;
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	line-height: 1.5em;
-	margin: 1em 4em 4em 4em;
+	margin: 1% 15%;
 	text-align: left;
 }
 
 h1{
-	font-size: 2.5em;
-	font-family: 'Englebert', sans-serif;
+	font-size: 1.5em;
+	font-family: 'Armata', sans-serif;
 	font-style: bold;
+	margin: 1% 15%;
+	text-align: center;
 }
 
 #slogan{
-	font-size: 1em;
+	font-size: .8em;
 	font-style: italic;
+	margin: 1% 15%;
+	text-align: center;
 }
 
-#nav_links{
-	color: #B34A37;
-	font-family: 'Englebert', sans-serif;
-	font-size: 1.5em;
-	padding-bottom: 1em;
+nav{
+	border: transparent; .08em;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	margin: 1% 15%;
+	padding: .2em;
+	text-align: center;
+	text-decoration: capitalize;
 }
 
 a{
-	color: #B34A37;
+	color: #000000;
+	font-style: italic;
 	text-decoration: none;
-}
-
-img {
-    vertical-align: text-top;
 }
 
 ul{
@@ -46,4 +54,13 @@ ul{
 footer{
 	padding-top: 1em;
 	padding-bottom: 1em;
+	margin: 1% 30%;
+}
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
