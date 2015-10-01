@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu|Cinzel);
+
+body{
+	color: #000000;
+	font-family: 'Cinzel', serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	margin: 1% 15%;
+	text-align: left;
+}
+
+nav{
+	background-color: #000000;
+	margin: 0;
+	overflow: hidden;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav > ul > li > a {
+	color: #FFFFFF;
+	background-color: #000000;
+	display: block;
+	line-height: .5em;
+	padding: 0.5em 0.5em;
+	text-decoration: none;
+}
+
+h1{
+	font-size: 3em;
+	font-family: 'Ubuntu', sans-serif;
+	font-style: bold;
+	text-align: left;
+	line-height: 1em;
+}
+
+h2{
+	font-size: 1em;
+	font-style: bold;
+	text-align: left;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#header-images {
+	-webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px; 
+    column-gap: 30px;
+    margin: 0;
+}
+
+footer {
+	background-color: #000000;
+	margin: 0;
+	overflow: hidden;
+	text-align: center;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+footer > ul > li > a {
+	color: #FFFFFF;
+	background-color: #000000;
+	display: block;
+	line-height: 0em;
+	padding: 0.5em 0.5em;
+	text-decoration: none;
+}
+
+#look-book {
+	#header-images {
+	-webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px; 
+    column-gap: 40px;
+    margin: 0;
+}
