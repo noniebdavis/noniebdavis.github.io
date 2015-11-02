@@ -1,60 +1,125 @@
 @import url(https://fonts.googleapis.com/css?family=Armata);
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
-
 * { margin:0; padding:0; box-sizing:border-box; }
+
+@media only screen and (max-width: 800px) {
+	nav {
+		float: none;
+	}
+
+	nav a {
+		margin: auto 0;
+	}
+
+	img {
+		max-width: 200px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	nav {
+		display: block;
+		text-align: center;
+	}
+
+	nav a {
+		margin: auto;
+	}
+
+	img {
+		max-width: 100px;
+	}
+}
 
 body{
 	color: #000000;
-	background-image:url('file://C:\Users/Noel/Documents/noniebdavis.github.io/image/background.jpg');
+	background-image:url('image/background.jpg');
 	background-attachment: fixed;
 	background-position: left center;
 	background-repeat: no-repeat;
 	font-family: 'Raleway', sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 1.5em;
-	margin: 1% 15%;
+	margin: 2% 8%;
 	text-align: left;
+	max-width: 900px;
 }
 
 h1{
-	font-size: 1.5em;
+	font-size: 2.5em;
 	font-family: 'Armata', sans-serif;
-	font-style: bold;
-	margin: 1% 15%;
-	text-align: center;
+	font-weight: bold;
+
+}
+
+
+nav{
+	border: transparent; .08em;
+	font-family: 'Armata', sans-serif;
+	font-size: 1em;
+	padding: .2em;
+	text-decoration: none;
+}
+
+nav a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	width: 170px;
+}
+
+nav a:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+a{
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+footer li{
+	float: left;
+}
+
+footer a{
+	display: block;
+	width: 170px;
+}
+
+
+div.contact img {
+    float: right;
+    margin: 0 auto;
+    padding: 0;
+}
+
+div.header img {
+	vertical-align: middle;
+}
+
+div.intro img {
+	vertical-align: middle;
 }
 
 #slogan{
 	font-size: .8em;
 	font-style: italic;
-	margin: 1% 15%;
-	text-align: center;
-}
-
-nav{
-	border: transparent; .08em;
-	font-family: 'Raleway', sans-serif;
-	font-size: 1em;
-	margin: 1% 15%;
-	padding: .2em;
-	text-align: center;
-	text-decoration: capitalize;
-}
-
-a{
-	color: #000000;
-	font-style: italic;
-	text-decoration: none;
-}
-
-ul{
 	text-align: left;
 }
 
-footer{
-	padding-top: 1em;
-	padding-bottom: 1em;
-	margin: 1% 30%;
+table#homepagelist{
+	border-collapse: separate;
+	text-align: center;
+	border-spacing: 10px;
 }
 
 .clearfix:after { 
